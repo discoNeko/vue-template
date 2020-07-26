@@ -1,0 +1,30 @@
+{
+   "extends": [
+     "stylelint-config-standard",
+     "stylelint-config-recess-order"
+   ],
+   "plugins": [
+     "stylelint-scss"
+   ],
+   "rules": {
+     "selector-pseudo-class-no-unknown": null,
+     "property-no-unknown": null,
+     "at-rule-no-unknown": null,
+     "scss/at-rule-no-unknown": true,
+     "rule-empty-line-before":["always", {
+       "except": [
+         "inside-block",
+         "after-single-line-comment"
+       ]
+     }],
+     "declaration-empty-line-before": "never",
+     "no-descending-specificity": null,
+     "selector-pseudo-element-no-unknown": [
+       true,
+       {
+         "ignorePseudoElements": ["v-deep"]
+       }
+     ]
+   }
+ }
+ 

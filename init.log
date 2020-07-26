@@ -1,0 +1,91 @@
+日 07/26 13:07:01 ~/git $ vue create vue-template
+
+
+Vue CLI v4.4.6
+? Please pick a preset: Manually select features
+? Check the features needed for your project: Babel, PWA, Router, Vuex, CSS Pre-processors, Linter
+? Use history mode for router? (Requires proper server setup for index fallback in production) Yes
+? Pick a CSS pre-processor (PostCSS, Autoprefixer and CSS Modules are supported by default): Sass/SCSS (with node-sass)
+? Pick a linter / formatter config: Basic
+? Pick additional lint features: Lint on save
+? Where do you prefer placing config for Babel, ESLint, etc.? In package.json
+? Save this as a preset for future projects? No
+
+
+Vue CLI v4.4.6
+✨  Creating project in /Users/discoNeko/git/vue-template.
+🗃  Initializing git repository...
+⚙️  Installing CLI plugins. This might take a while...
+
+
+> fsevents@1.2.13 install /Users/discoNeko/git/vue-template/node_modules/watchpack-chokidar2/node_modules/fsevents
+> node install.js
+
+  SOLINK_MODULE(target) Release/.node
+  CXX(target) Release/obj.target/fse/fsevents.o
+  SOLINK_MODULE(target) Release/fse.node
+
+> fsevents@1.2.13 install /Users/discoNeko/git/vue-template/node_modules/webpack-dev-server/node_modules/fsevents
+> node install.js
+
+  SOLINK_MODULE(target) Release/.node
+  CXX(target) Release/obj.target/fse/fsevents.o
+  SOLINK_MODULE(target) Release/fse.node
+
+> yorkie@2.0.0 install /Users/discoNeko/git/vue-template/node_modules/yorkie
+> node bin/install.js
+
+setting up Git hooks
+done
+
+
+> core-js@2.6.11 postinstall /Users/discoNeko/git/vue-template/node_modules/babel-runtime/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.5 postinstall /Users/discoNeko/git/vue-template/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> ejs@2.7.4 postinstall /Users/discoNeko/git/vue-template/node_modules/ejs
+> node ./postinstall.js
+
+added 1239 packages from 868 contributors and audited 1239 packages in 34.404s
+
+46 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+🚀  Invoking generators...
+📦  Installing additional dependencies...
+
+
+> node-sass@4.14.1 install /Users/discoNeko/git/vue-template/node_modules/node-sass
+> node scripts/install.js
+
+Cached binary found at /Users/discoNeko/.npm/node-sass/4.14.1/darwin-x64-72_binding.node
+
+> node-sass@4.14.1 postinstall /Users/discoNeko/git/vue-template/node_modules/node-sass
+> node scripts/build.js
+
+Binary found at /Users/discoNeko/git/vue-template/node_modules/node-sass/vendor/darwin-x64-72/binding.node
+Testing binary
+Binary is fine
+added 139 packages from 89 contributors and audited 1378 packages in 8.365s
+
+52 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+⚓  Running completion hooks...
+
+📄  Generating README.md...
+
+🎉  Successfully created project vue-template.
+👉  Get started with the following commands:
+
+ $ cd vue-template
+ $ npm run serve
+
