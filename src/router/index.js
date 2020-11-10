@@ -3,10 +3,10 @@ import VueRouter from 'vue-router'
 import Home from '@/views/Home.vue'
 
 /**
-  * vue-routerの仕様により、同一画面に遷移するとエラーが出るようになったため
-  * 元のrouter関数にエラーハンドリングを持たせて上書きすることで対応
-  * @see https://github.com/vuejs/vue-router/issues/2881#issuecomment-520554378
-  */
+ * vue-routerの仕様により、同一画面に遷移するとエラーが出るようになったため
+ * 元のrouter関数にエラーハンドリングを持たせて上書きすることで対応
+ * @see https://github.com/vuejs/vue-router/issues/2881#issuecomment-520554378
+ */
 const originalPush = VueRouter.prototype.push
 VueRouter.prototype.push = function push (location, onResolve, onReject) {
   return (onResolve || onReject) ?
