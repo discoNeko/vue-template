@@ -14,4 +14,4 @@ updates:
     reviewers:
       - "discoNeko"
     target-branch: "develop"
-    
+    open-pull-requests-limit: 100
