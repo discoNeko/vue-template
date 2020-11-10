@@ -1,23 +1,18 @@
 /**
-  * Googleのコーディングスタイルに準拠し、一部独自のlintルールを設定しています
-  * @see https://github.com/google/eslint-config-google
-  */
+ * Googleのコーディングスタイルに準拠し、一部独自のlintルールを設定しています
+ * @see https://github.com/google/eslint-config-google
+ */
 module.exports = {
   'env': {
     'browser': true,
-    'es6': true,
+    'es2021': true,
   },
   'extends': [
     'plugin:vue/essential',
     'google',
   ],
-  'globals': {
-    'Atomics': 'readonly',
-    'SharedArrayBuffer': 'readonly',
-  },
   'parserOptions': {
-    'parser': 'babel-eslint',
-    'ecmaVersion': 2018,
+    'ecmaVersion': 12,
     'sourceType': 'module',
   },
   'plugins': [
@@ -71,4 +66,3 @@ module.exports = {
     'vue/html-indent': ['error', 2],
   },
 }
-
