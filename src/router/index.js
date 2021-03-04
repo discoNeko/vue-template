@@ -23,6 +23,11 @@ const routes = [
     component: Home,
   },
   {
+    path: '/unauthenticated',
+    name: 'Unauthenticated',
+    component: loadComponent('Unauthenticated.vue'),
+  },
+  {
     path: '/error',
     name: 'Error',
     component: loadComponent('Error.vue'),
